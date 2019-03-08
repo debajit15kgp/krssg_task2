@@ -202,7 +202,7 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-add_executable(commander src/commander.cpp)
-target_link_libraries(commander ${catkin_LIBRARIES})
-add_dependencies(commander bir_challenges_generate_messages_cpp)
+add_executable(new src/new.cpp)
+target_link_libraries(new ${catkin_LIBRARIES})
+add_dependencies(new bir_challenges_generate_messages_cpp)
 
